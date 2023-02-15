@@ -81,6 +81,6 @@ form p {
   align-items: center;
 }
 
-input .btn {
+.btn {
   background-image: linear-gradient(to right bottom, #5f2c82, #411c5a);
 }
