@@ -6,3 +6,12 @@
     Verde: #49a09d
     Lilás: #5f2c82
 */
+
+form p {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 5px;
+}

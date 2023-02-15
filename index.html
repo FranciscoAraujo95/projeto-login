@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -17,7 +21,22 @@
             Seja bem-vindo(a) novamente. Faça login para acessar sua e fazer
             suas configurações no sue ambiente.
           </p>
-          <form action="" method="post" autocomplete="on"></form>
+          <form action="" method="post" autocomplete="on">
+            <p>
+              <label for="nome"
+                ><span class="material-symbols-rounded icon">
+                  login
+                </span></label
+              >
+              <input type="text" name="nome" id="nome" />
+            </p>
+            <p>
+              <label for="senha"
+                ><span class="material-symbols-rounded icon"> Key </span></label
+              >
+              <input type="password" name="senha" id="senha" />
+            </p>
+          </form>
         </div>
       </section>
     </main>
