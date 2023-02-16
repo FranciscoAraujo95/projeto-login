@@ -11,7 +11,7 @@ Laptop: 1366 x 768.
 High-res laptop or desktop: 1920 x 1080.
  */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   section {
     display: flex;
   }
@@ -32,5 +32,52 @@ High-res laptop or desktop: 1920 x 1080.
     height: 300px;
     width: 400px;
     border-radius: 15px 0px 0px 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: white;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  div#formulario {
+    display: grid;
+    align-content: center;
+    gap: 1em;
+    place-items: center;
+    height: 500px;
+    width: 500px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 20px;
+  }
+
+  div#formulario h1 {
+    font-size: 4em;
+  }
+
+  div#formulario p {
+    font-size: 1.1em;
+    width: 400px;
+    margin-bottom: 1em;
+  }
+
+  div#formulario input {
+    height: 45px;
+  }
+
+  div#imagem {
+    height: 520px;
+    width: 500px;
+    border-radius: 0px 15px 15px 0px;
+  }
+
+  #darkmode {
+    left: 2%;
+    top: 2%;
   }
 }
