@@ -59,6 +59,8 @@ div#formulario h1 {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.281);
   margin-left: 10px;
   margin-bottom: 5px;
+  display: inline-block;
+  position: relative;
 }
 
 div#formulario p {

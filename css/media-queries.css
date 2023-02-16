@@ -17,7 +17,7 @@ High-res laptop or desktop: 1920 x 1080.
   }
 
   div#formulario {
-    height: 320px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -25,10 +25,11 @@ High-res laptop or desktop: 1920 x 1080.
   }
 
   div#formulario h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   div#imagem {
+    height: 300px;
     width: 400px;
     border-radius: 15px 0px 0px 15px;
   }
