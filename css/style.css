@@ -82,5 +82,6 @@ form p {
 }
 
 .btn {
-  background-image: linear-gradient(to right bottom, #5f2c82, #411c5a);
+  /* appearance: none; */
+  /* background-image: linear-gradient(to right bottom, #5f2c82, #411c5a); */
 }

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* 
+Mobile: 360 x 640.
+Mobile: 375 x 667.
+Mobile: 360 x 720.
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.
+Tablet: 768 x 1024.
+Laptop: 1366 x 768.
+High-res laptop or desktop: 1920 x 1080.
+ */
+
+@media screen and (min-width: 768px) {
+  section {
+    display: flex;
+  }
+
+  div#formulario {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 0px 15px 15px 0px;
+  }
+
+  div#formulario h1 {
+    font-size: 3em;
+  }
+
+  div#imagem {
+    width: 400px;
+    border-radius: 15px 0px 0px 15px;
+  }
+}
