@@ -28,6 +28,13 @@ section {
   border-radius: 15px;
 }
 
+#darkmode {
+  cursor: pointer;
+  position: absolute;
+  left: 86%;
+  bottom: 86%;
+}
+
 .icon {
   margin-right: 5px;
   color: #5f2c82;
@@ -49,6 +56,7 @@ div#formulario {
   padding: 10px;
   border-radius: 0px 0px 15px 15px;
   margin: auto;
+  position: relative;
 }
 
 div#formulario h1 {
