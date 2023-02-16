@@ -52,7 +52,7 @@ div#formulario {
 }
 
 div#formulario h1 {
-  font-family: 'Poppins', cursive;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 2em;
   color: #5f2c82;
