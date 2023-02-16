@@ -60,8 +60,8 @@ div#formulario {
 }
 
 div#formulario h1 {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 2em;
   color: #5f2c82;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.281);
@@ -80,7 +80,7 @@ div#formulario p {
 }
 
 div#formulario input {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   border: 2px solid #5f2c82;
   border-radius: 10px;
   width: 100%;
@@ -96,7 +96,7 @@ form p {
 
 .btn input {
   color: white;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   background-image: linear-gradient(to right bottom, #5f2c82, #831ec7);
 }
