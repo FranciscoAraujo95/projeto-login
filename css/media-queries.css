@@ -36,6 +36,36 @@ High-res laptop or desktop: 1920 x 1080.
 }
 
 @media screen and (min-width: 1024px) {
+  section {
+    display: flex;
+  }
+
+  div#formulario {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    gap: 1em;
+    height: 400px;
+    width: 400px;
+    border-radius: 0px 15px 15px 0px;
+  }
+
+  div#formulario h1 {
+    font-size: 3em;
+  }
+
+  div#formulario p {
+    width: 340px;
+  }
+
+  div#imagem {
+    height: 400px;
+    width: 400px;
+    border-radius: 15px 0px 0px 15px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
   body {
     background-color: white;
   }
