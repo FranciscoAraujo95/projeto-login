@@ -73,17 +73,21 @@
     </main>
 
     <script>
-      const btnDark = document.querySelector(".btn-dark");
-      const container = document.querySelector(".container");
-      const form = document.querySelector("#formulario");
+      const btnDark = document.querySelector('.btn-dark');
+      const container = document.querySelector('.container');
+      const form = document.querySelector('#formulario');
+      const btn = document.querySelector('.btn');
+      const input = document.querySelector('.input');
 
       function darkmode() {
-        btnDark.classList.toggle("active");
-        container.classList.toggle("active");
-        form.classList.toggle("active");
+        btnDark.classList.toggle('active');
+        container.classList.toggle('active');
+        form.classList.toggle('active');
+        btn.classList.toggle('active');
+        input.classList.toggle('active');
       }
 
-      btnDark.addEventListener("click", darkmode);
+      btnDark.addEventListener('click', darkmode);
     </script>
   </body>
 </html>

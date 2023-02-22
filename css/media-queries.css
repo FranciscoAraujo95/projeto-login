@@ -22,7 +22,6 @@ High-res laptop or desktop: 1920 x 1080.
     flex-direction: column;
     justify-content: space-evenly;
     border-radius: 0px 15px 15px 0px;
-    /* transition: background 0.5s; */
   }
 
   div#formulario h1 {
