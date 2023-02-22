@@ -76,7 +76,7 @@ section {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  left: 1px;
+  left: 1.5px;
   transform: translateY(-50%);
   content: "";
   height: 17px;
