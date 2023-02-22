@@ -28,7 +28,7 @@ section {
   border-radius: 15px;
 }
 
-#darkmode {
+/* #darkmode {
   cursor: pointer;
   position: absolute;
   left: 86%;
@@ -38,6 +38,58 @@ section {
 .icon {
   margin-right: 5px;
   color: #5f2c82;
+} */
+
+.container {
+  background-color: #fff;
+  width: 44px;
+  cursor: pointer;
+  transition: background 0.5s;
+  border-radius: 50px;
+
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+.container.active {
+  background-color: #111;
+  border-radius: 50px;
+}
+
+.btn-dark {
+  border: 2px solid #5f2c82;
+  border-radius: 50px;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+
+  transition: border 0.5s;
+}
+
+.btn-dark.active {
+  border: 2px solid #602c8271;
+}
+
+.btn-dark::before {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 1px;
+  transform: translateY(-50%);
+  content: "";
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background-color: #5f2c82;
+  transition: left 0.5s;
+}
+
+.btn-dark.active::before {
+  background-color: #602c8271;
+  transition: 0.5s;
+  left: 21px;
 }
 
 div#imagem {
@@ -59,8 +111,14 @@ div#formulario {
   position: relative;
 }
 
+div#formulario.active {
+  background-color: #111111d5;
+  color: white;
+  transition: background 0.5s;
+}
+
 div#formulario h1 {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 2em;
   color: #5f2c82;
@@ -80,7 +138,7 @@ div#formulario p {
 }
 
 div#formulario input {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   border: 2px solid #5f2c82;
   border-radius: 10px;
   width: 100%;
@@ -96,7 +154,7 @@ form p {
 
 .btn input {
   color: white;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   background-image: linear-gradient(to right bottom, #5f2c82, #831ec7);
 }
